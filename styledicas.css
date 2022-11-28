@@ -1,0 +1,28 @@
+/* home */
+#home {
+    background: -webkit-linear-gradient(to left, #21d4fd, #3DA3A8);
+  background: -o-linear-gradient(to left, #43f7fd, #3DA3A8);
+  background: -moz-linear-gradient(to left, #21d4fd, #1c8b97);
+  background: linear-gradient(to left, #21d4fd, #58b7bc);
+    min-height: 500px;
+}
+
+/* card */
+.card {
+    transition: all 0.5s ease;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15);
+    transform: scale(1.1);
+}
+
+/* button */
+.btn {
+    transition: all 0.5s ease;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
